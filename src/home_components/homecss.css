@@ -1,0 +1,35 @@
+.homebanner{
+    background-color: rgb(255 72 0);
+    /* background-color: whitesmoke */
+    /* background-color: linear-gradient(to top, #dfe9f3 0%, white 100%); */
+    /* background-color: linear-gradient(to top, #feada6 0%, #f5efef 100%); */
+
+    /* background-color: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
+
+    /* background-color: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+    
+    /* background-color: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%); */
+    /* background-color: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); */
+
+
+/* background-color: rgb(255, 72, 0);background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
+background-image:
+url(https://static-cse.canva.com/_next/static/assets/wave.2881x801.e3004027281d91aea8440556fa84fbfd.png)
+
+ 
+ ;
+background-repeat: no-repeat;
+background-position: bottom;
+
+}
+
+.emma{
+    width: 50%;
+    height: 80%;
+    font-family:sans-serif;
+    font-size: 25px;
+    color:#ffffff;
+    text-shadow:-3px 3px 1px  rgb(240, 70, 70);
+   
+}
+
