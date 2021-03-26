@@ -4,10 +4,10 @@ import B1 from '../pics/b1.jpg'
 export default function HomeImg() {
     return (
         <div>
-            <div className="">
+            <div className="flex justify">
                 <img src={B1} alt=""
                     style={{
-                        width: '100vw',
+                        width: '85vw',
                         maxHeight: '50vh'
 
                     }}

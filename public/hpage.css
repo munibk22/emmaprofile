@@ -1,29 +1,35 @@
 body{
-    background-color: aliceblue;
+    background-color: white;
     font-family: 'Permanent Marker', cursive;
     font-family: 'Karla', sans-serif;
 
 }
 
 .margin{
-    margin:auto;
+    margin:auto  !important;
 }
 
 .justify{
-    justify-content: center;
+    justify-content: center  !important;
 }
 
 .alignitems{
-    align-items: center;
+    align-items: center  !important;
 }
 
 .alignText{
-    text-align: center;
+    text-align: center !important;
 }
 
 
 .flex{
     display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .relative{
@@ -34,3 +40,4 @@ body{
     position: absolute;
     top:0%
 }
+
