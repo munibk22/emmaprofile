@@ -1,22 +1,23 @@
 import React from 'react'
 import './homecss.css'
-
 import e6 from '../pics/e6.jpg'
 import HomeCircles from './HomeCircles'
-
+import { Button } from 'react-bootstrap'
+import Yellowc from '../pics/yellowc2.png'
 
 export default function HomeImg() {
     return (
 
-        <div className=" relative flex ">
+        <div className=" relative flexwrap ">
             <div className="absolute emmaimg" style={{
                 zIndex: '4',
-                right: '',
+                right: '0',
                 overflow: 'hidden',
-                width: '40%',
-                maxHeight: '80%',
-                marginLeft: '50%',
-
+                maxWidth: '700px',
+                maxHeight: '85%',
+                marginLeft: '600px',
+                minWidth: "380px",
+                // minHeight: "600px",
             }}>
                 <img src={e6} alt=''
                     className=" flex margin"
@@ -25,16 +26,31 @@ export default function HomeImg() {
                         overflow: 'hidden',
                         zIndex: '3',
                         marginRight: '0%',
-
-                        width: '90%',
-                        height: '75%',
-
+                        width: '70%',
+                        height: '65%',
+                        minHeight: "60%",
+                        minWidth: "40%"
 
                     }}
                 />
             </div>
 
 
+            {/* <div className="absolute flex overflow" style={{
+                right: '-5%',
+                bottom: '150px',
+                justifyContent: "flex-end"
+            }}>
+                <img src={Yellowc} alt='' className="flex overflow "
+                    style={{
+                        borderRadius: '75%',
+                        zIndex: '',
+                        overflow: 'hidden',
+                        width: '40%',
+
+                    }}
+                />
+            </div> */}
 
             <div className=" absolute"></div>
             <div className="homebanner "
@@ -61,15 +77,26 @@ export default function HomeImg() {
                 style={{ zIndex: '4', flexDirection: 'column' }}>
                 <h1 className=" emma "> Emma Khan </h1>
 
-                <p>  <button className='btn  btn-lg'
-                    style={{ backgroundColor: '#FF050C', color: 'whitesmoke' }}
-                >
-                    Contact Me </button> </p>
 
 
                 <p className=" emmasubtitle "
                     style={{ color: 'whitesmoke' }}
                 >Profile Page</p>
+
+
+                <div className="flex" style={{ justifyContent: 'space-between', marginLeft: '0px' }}>
+                    <p>  <button className='btn  btn-lg flex'
+                        style={{ backgroundColor: '#FF050C', color: 'whitesmoke' }}
+                    >
+                        Contact Me </button> </p>
+
+                    <p>  <Button className='btn  btn-lg flex'
+                        variant="outline-primary"
+                        style={{ border: '', color: 'whitesmoke' }}
+                    >
+                        Learn More </Button> </p>
+                </div>
+
 
 
 

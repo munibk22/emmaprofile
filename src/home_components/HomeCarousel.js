@@ -17,6 +17,7 @@ export default function HomeCarousel() {
                             className="carimg"
                             src={b3}
                             alt="First slide"
+                            style={{ objectFit: 'cover' }}
                         />
                         <Carousel.Caption>
                             <h3>First slide </h3>
@@ -27,6 +28,7 @@ export default function HomeCarousel() {
                             className="carimg"
                             src={e3}
                             alt="Second slide"
+                            style={{ objectFit: 'cover' }}
                         />
 
                         <Carousel.Caption>

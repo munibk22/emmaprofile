@@ -8,48 +8,61 @@ export default function HomeCircles() {
     return (
         <div style={{}} className="relative flex">
 
-            <div className="relative">
-                <div className="absolute" style={{
-                    borderRadius: '55%',
+            <div className="relative" style={{ width: '80vw' }}>
+                <div className="absolute flexwrap " style={{
+
                     zIndex: '0',
-                    left: '15%',
-                    maxHeight: '',
-                    width: '100vw'
+                    // left: '15%',
+
+                    // width: '31vw',
+                    // height: '31vw',
+                    top: '390px',
+                    // marginRight: "40%"
+                    width: '60%',
+                    height: '20%'
 
                 }}>
-                    <img src={Redc} alt=''
+
+                    <img src={Redc} alt='
+                        className="absolute flex"'
                         style={{
-                            borderRadius: '75%',
+                            borderRadius: '55%',
                             zIndex: '',
-                            marginTop: '40%',
-                            height: '30%',
-                            width: '20%',
-                            left: '5%'
+                            // height: '25vw',
+                            // width: '25vw',
+                            left: '-50',
+                            minWidth: "200px",
+                            maxHeight: "360px",
+
                         }}
                     />
                 </div>
 
                 <div className="absolute flexwrap justify " style={{
-                    borderRadius: '',
+
                     zIndex: '0',
                     marginRight: '40%',
                     top: '40%',
-                    width: '80%',
-                    height: '30%'
+                    width: '70%',
+                    height: '20%'
 
                 }}>
                     <img src={Bluec} alt=''
+                        className="absolute"
                         style={{
                             borderRadius: '55%',
                             zIndex: '',
                             overflow: '',
+                            maxHeight: "470px",
+                            left: '-200px',
+                            minWidth: "200px"
 
                         }}
                     />
                 </div>
 
 
-                <div className="absolute " style={{
+                {/* <div className="absolute " style={{
                     borderRadius: '',
                     zIndex: '0',
                     right: '0',
@@ -65,7 +78,7 @@ export default function HomeCircles() {
                             width: '50%',
                         }}
                     />
-                </div>
+                </div> */}
             </div>
 
         </div>

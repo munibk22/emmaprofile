@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Karla', sans-serif;
+
+}
+
+.margin{
+    margin:auto  !important;
+}
+
+.justify{
+    justify-content: center  !important;
+}
+
+.alignitems{
+    align-items: center  !important;
+}
+
+.alignText{
+    text-align: center !important;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flexwrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.relative{
+    position:relative;
+}
+
+.absolute{
+    position: absolute;
+    /* top:0% */
+}
+
+.absolutebottom{
+    position: absolute;
+    bottom:5%;
+    top:60%;
+}
+
+
+.margintop{
+    margin-top:5%  !important;
+}
+
+.margintop15{
+    margin-top:15%  !important;
+}
+
+.margintop25{
+    margin-top:25%  !important;
+}
+
+.margintop50{
+    margin-top:50%  !important;
+    overflow: hidden !important;
+}
+
+.overflow{
+    overflow: hidden !important;
+}
