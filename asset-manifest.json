@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/emmaprofile/static/css/main.c8275e08.chunk.css",
-    "main.js": "/emmaprofile/static/js/main.ff38f2cd.chunk.js",
-    "main.js.map": "/emmaprofile/static/js/main.ff38f2cd.chunk.js.map",
-    "runtime-main.js": "/emmaprofile/static/js/runtime-main.48ac4e8d.js",
-    "runtime-main.js.map": "/emmaprofile/static/js/runtime-main.48ac4e8d.js.map",
+    "main.css": "/emmaprofile/static/css/main.3fec6947.chunk.css",
+    "main.js": "/emmaprofile/static/js/main.e00762a0.chunk.js",
+    "main.js.map": "/emmaprofile/static/js/main.e00762a0.chunk.js.map",
+    "runtime-main.js": "/emmaprofile/static/js/runtime-main.d91d5d10.js",
+    "runtime-main.js.map": "/emmaprofile/static/js/runtime-main.d91d5d10.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/emmaprofile/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.107df177.chunk.js": "/emmaprofile/static/js/2.107df177.chunk.js",
-    "static/js/2.107df177.chunk.js.map": "/emmaprofile/static/js/2.107df177.chunk.js.map",
-    "static/js/3.465c07a3.chunk.js": "/emmaprofile/static/js/3.465c07a3.chunk.js",
-    "static/js/3.465c07a3.chunk.js.map": "/emmaprofile/static/js/3.465c07a3.chunk.js.map",
+    "static/js/2.a3608d42.chunk.js": "/emmaprofile/static/js/2.a3608d42.chunk.js",
+    "static/js/2.a3608d42.chunk.js.map": "/emmaprofile/static/js/2.a3608d42.chunk.js.map",
+    "static/js/3.9aa83b68.chunk.js": "/emmaprofile/static/js/3.9aa83b68.chunk.js",
+    "static/js/3.9aa83b68.chunk.js.map": "/emmaprofile/static/js/3.9aa83b68.chunk.js.map",
     "index.html": "/emmaprofile/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/emmaprofile/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.c8275e08.chunk.css.map": "/emmaprofile/static/css/main.c8275e08.chunk.css.map",
-    "static/js/2.107df177.chunk.js.LICENSE.txt": "/emmaprofile/static/js/2.107df177.chunk.js.LICENSE.txt",
+    "static/css/main.3fec6947.chunk.css.map": "/emmaprofile/static/css/main.3fec6947.chunk.css.map",
+    "static/js/2.a3608d42.chunk.js.LICENSE.txt": "/emmaprofile/static/js/2.a3608d42.chunk.js.LICENSE.txt",
     "static/media/Germozap.872684fe.mp4": "/emmaprofile/static/media/Germozap.872684fe.mp4",
-    "static/media/about.106b59d8.svg": "/emmaprofile/static/media/about.106b59d8.svg",
+    "static/media/about.c5c3bd36.svg": "/emmaprofile/static/media/about.c5c3bd36.svg",
     "static/media/b1.957eeab5.jpg": "/emmaprofile/static/media/b1.957eeab5.jpg",
     "static/media/b3.695d7a4c.jpg": "/emmaprofile/static/media/b3.695d7a4c.jpg",
     "static/media/b7.5db4c465.jpg": "/emmaprofile/static/media/b7.5db4c465.jpg",
@@ -23,7 +23,6 @@
     "static/media/bluec.95e8bb0e.png": "/emmaprofile/static/media/bluec.95e8bb0e.png",
     "static/media/cloverc.7c173487.mp4": "/emmaprofile/static/media/cloverc.7c173487.mp4",
     "static/media/cloverd.e6572f42.mp4": "/emmaprofile/static/media/cloverd.e6572f42.mp4",
-    "static/media/contact.eae5dc22.svg": "/emmaprofile/static/media/contact.eae5dc22.svg",
     "static/media/e1.97b2e2e7.jpg": "/emmaprofile/static/media/e1.97b2e2e7.jpg",
     "static/media/e10.2618a4b3.jpg": "/emmaprofile/static/media/e10.2618a4b3.jpg",
     "static/media/e3.7b8aac99.jpg": "/emmaprofile/static/media/e3.7b8aac99.jpg",
@@ -34,10 +33,10 @@
     "static/media/redc.9d38775d.png": "/emmaprofile/static/media/redc.9d38775d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.48ac4e8d.js",
+    "static/js/runtime-main.d91d5d10.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.107df177.chunk.js",
-    "static/css/main.c8275e08.chunk.css",
-    "static/js/main.ff38f2cd.chunk.js"
+    "static/js/2.a3608d42.chunk.js",
+    "static/css/main.3fec6947.chunk.css",
+    "static/js/main.e00762a0.chunk.js"
   ]
 }
