@@ -48,12 +48,12 @@ export default function Cards() {
                 </div> */}
 
                     <div className="zindex absolutebottom flexwrap alignitems justify componenttxtbox"
-                        style={{ marginTop: "", color: 'black' }}>
+                        style={{ marginTop: "" }}>
                         <hr className="hrRed2 " />
 
                     Commercial for Clover
                     <a href="https://www.youtube.com/watch?v=q9h6mFoazOk" target="blank"
-                            className="btn btn-primary btn-lg  margin "
+                            className="btn btn-primary btn-lg  margin primary "
                             style={{ fontSize: ".7em", padding: '', marginTop: "", }}
                         >
                             Click To View
@@ -92,12 +92,12 @@ export default function Cards() {
 
 
 
-                    <div className="zindex absolutebottom flexwrap alignitems justify componenttxtbox" style={{ marginTop: "2%", color: 'black' }}>
+                    <div className="zindex absolutebottom flexwrap alignitems justify componenttxtbox" style={{ marginTop: "2%", }}>
                         <hr className="hrRed2 " />
                     Commercial for Germozap
 
 <a href="https://www.youtube.com/watch?v=AjRLxunLnPs" target="blank"
-                            className="btn btn-primary btn-lg  margin "
+                            className="btn btn-primary btn-lg  margin primary"
                             style={{ fontSize: ".7em", padding: '', marginTop: "", }}
                         >
                             Click To View
@@ -132,20 +132,20 @@ export default function Cards() {
                         </video>
                     </div>
                     <div className="zindex absolutebottom flexwrap alignitems justify componenttxtbox"
-                        style={{ marginTop: "2%", color: 'black' }}>
+                        style={{ marginTop: "2%", }}>
                         <hr className="hrRed2 " />
 
 
                     Commercial for Clover
                     <a href="https://www.youtube.com/watch?v=q9h6mFoazOk" target="blank"
-                            className="btn btn-primary btn-lg  margin "
-                            style={{ fontSize: ".7em", padding: '', marginTop: "", }}
+                            className="btn btn-primary btn-lg  margin primary "
+                            style={{ fontSize: ".7em", padding: '', backgroundColor: '' }}
                         >
                             Click To View
                     </a>
 
                         <a href="https://www.clover.com/" target="blank"
-                            className="btn btn-danger btn-lg  margin"
+                            className="btn btn-danger btn-lg  margin "
                             style={{ fontSize: ".7em", padding: '', marginTop: "", }}
                         >
                             Visit Website

@@ -2,7 +2,17 @@ body{
     background-color: white;
     font-family: 'Permanent Marker', cursive;
     font-family: 'Karla', sans-serif;
+    color: #01a6e7 !important;
+    /* background-color: rgb(54, 54, 54); */
+}
 
+h1{
+    /* font-weight: 700 !important; */
+}
+.primary{
+    background-color: #01a6e7 !important;
+    border-color:#01a6e7!important;
+    
 }
 
 .margin{
@@ -13,9 +23,25 @@ body{
     justify-content: center  !important;
 }
 
-.alignitems{
-    align-items: center  !important;
+.justifyaround{
+    justify-content:space-around !important;
 }
+
+.justifybetween{
+    justify-content:space-between  !important;
+}
+
+.aligncontent{
+    align-content: center  !important;
+}
+
+
+.alignitems{
+   
+align-items: center  !important;
+}
+
+
 
 .alignText{
     text-align: center !important;
@@ -52,6 +78,10 @@ body{
     margin-top:5%  !important;
 }
 
+.margintop10{
+    margin-top:10%  !important;
+}
+
 .margintop15{
     margin-top:15%  !important;
 }
@@ -67,4 +97,9 @@ body{
 
 .overflow{
     overflow: hidden !important;
+}
+
+hr{
+
+    background-color: #01a6e7
 }

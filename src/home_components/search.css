@@ -1,0 +1,28 @@
+
+  .search-form{
+    min-height:;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+  }
+  .search-button{
+    /* padding:8px 10px; */
+   background-color: #01a6e7 ;
+    border-radius: 990px;
+    left:'-5px';
+    right: .4%;
+    top: 0;
+    bottom: 0;
+    
+  
+  }
+
+  .search-bar{
+    width: 24vw;
+    border:none;
+    /* padding:10px; */
+    outline: 0px;
+    padding: 1%;
+    border-radius: 990px;
+  }

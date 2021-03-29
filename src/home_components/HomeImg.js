@@ -26,8 +26,8 @@ export default function HomeImg() {
                         overflow: 'hidden',
                         zIndex: '3',
                         marginRight: '0%',
-                        width: '70%',
-                        height: '65%',
+                        width: '75%',
+                        height: '70%',
                         minHeight: "60%",
                         minWidth: "40%"
 
@@ -73,14 +73,14 @@ export default function HomeImg() {
             style={{ ba }}
             style="background-color: rgb(255, 0, 0);"></div> */}
 
-            <div className=" absolute flexwrap  namecontainer  "
+            <div className=" absolute flexwrap  namecontainer bannertxt "
                 style={{ zIndex: '4', flexDirection: 'column' }}>
                 <h1 className=" emma "> Emma Khan </h1>
 
 
 
                 <p className=" emmasubtitle "
-                    style={{ color: 'whitesmoke' }}
+                    style={{ color: ' ' }}
                 >Profile Page</p>
 
 

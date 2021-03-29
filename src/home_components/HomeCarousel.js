@@ -20,7 +20,7 @@ export default function HomeCarousel() {
                             style={{ objectFit: 'cover' }}
                         />
                         <Carousel.Caption>
-                            <h3>First slide </h3>
+                            <h3> </h3>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -32,7 +32,7 @@ export default function HomeCarousel() {
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide </h3>
+                            <h3> </h3>
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -44,7 +44,7 @@ export default function HomeCarousel() {
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide </h3>
+                            <h3> </h3>
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -57,7 +57,7 @@ export default function HomeCarousel() {
                         />
 
                         <Carousel.Caption>
-                            <h3>Fourth slide </h3>
+                            <h3> </h3>
 
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -71,7 +71,7 @@ export default function HomeCarousel() {
                         />
 
                         <Carousel.Caption>
-                            <h3>Fifth slide </h3>
+                            <h3>  </h3>
 
                         </Carousel.Caption>
                     </Carousel.Item>

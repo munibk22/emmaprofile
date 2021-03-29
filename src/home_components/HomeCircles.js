@@ -8,7 +8,7 @@ export default function HomeCircles() {
     return (
         <div style={{}} className="relative flex">
 
-            <div className="relative" style={{ width: '80vw' }}>
+            <div className="relative" style={{ width: '100vw' }}>
                 <div className="absolute flexwrap " style={{
 
                     zIndex: '0',
@@ -16,7 +16,7 @@ export default function HomeCircles() {
 
                     // width: '31vw',
                     // height: '31vw',
-                    top: '390px',
+                    top: '380px',
                     // marginRight: "40%"
                     width: '60%',
                     height: '20%'
@@ -53,8 +53,8 @@ export default function HomeCircles() {
                             borderRadius: '55%',
                             zIndex: '',
                             overflow: '',
-                            maxHeight: "470px",
-                            left: '-200px',
+                            maxHeight: "460px",
+                            left: '-240px',
                             minWidth: "200px"
 
                         }}
@@ -62,23 +62,32 @@ export default function HomeCircles() {
                 </div>
 
 
-                {/* <div className="absolute " style={{
+                <div className="absolute flexwrap " style={{
                     borderRadius: '',
                     zIndex: '0',
-                    right: '0',
-                    top: '30%',
-                    overflow: 'hidden'
+                    right: '250px',
+                    top: '300px',
+                    // overflow: 'hidden',
+                    // left: "80%",
+                    // width: '90%',
+                    // height: '20%'
+
 
                 }}>
-                    <img src={Yellowc} alt=''
+                    <img src={Yellowc} alt='' className="absolute"
                         style={{
-                            borderRadius: '75%',
+                            borderRadius: '50%',
                             zIndex: '',
+                            maxHeight: "300px",
                             overflow: 'hidden',
-                            width: '50%',
+                            minWidth: "200px"
+                            // maxWidth: "500px",
+
+                            // right: '600px',
+                            // width: '50%',
                         }}
                     />
-                </div> */}
+                </div>
             </div>
 
         </div>

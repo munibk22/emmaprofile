@@ -1,6 +1,6 @@
 import React from 'react'
 import e11 from '../pics/e10.jpg'
-export default function Profile() {
+export default function About() {
     return (
         <div className="homecontainer flex align relative " style={{}}>
 
@@ -8,7 +8,7 @@ export default function Profile() {
                 <img src={e11} alt=""
                     style={{
                         borderRadius: '50%',
-                        // boxShadow: "3px 3px 2px #006ec5, -3px -3px 2px #006ec5",
+                        boxShadow: "3px 3px 2px #01a6e7, -3px 3px 2px #01a6e7",
                         width: "55%",
                         maxWidth: "50vw",
                         maxHeight: "520px",
@@ -22,17 +22,19 @@ export default function Profile() {
 
             </div>
             <div className="flexwrap absolute bannertxt banner " style={{
-                fontWeight: "500",
-                color: 'white  ',
+                fontWeight: "700",
+                color: ' white ',
                 width: "80vw",
                 maxWidth: "850px",
                 marginLeft: '',
-                backgroundColor: '#ff3d00',
+                backgroundImage: "linear-gradient(to right, #f85e21 0%, #f19e7d 100%)",
+                // backgroundColor: '#ea5e32',
                 minHeight: "15px",
                 maxHeight: "150px",
                 top: '50%',
                 // fontSize: '50%',
-                zIndex: "1"
+                zIndex: "1",
+                letterSpacing: ".2em"
 
             }}>
 
@@ -54,25 +56,29 @@ export default function Profile() {
 
                 </ul>
             </div>
+            <div className="absolute alignitems flexwrap overflow" style={{
+                maxWidth: "200px",
+                zIndex: '1',
+                right: '-6%',
+                height: "100%",
+                textAlign: "end",
+
+                // bottom: "0",
+                // top: "0",
 
 
-            {/* <div className="align" style={{ color: 'white', width: "100%" }}>
 
-                <ul>
-                    <h1 style={{ fontWeight: "800", width: "" }}>About Me:</h1>
-                    <div className="">
-                        Mother and Daughter
-    </div>
-                    <div className="">
-                        Reading
-        </div>
-                    <div className="">
-                        Travelling
+
+            }}>
+                <ul style={{ color: 'rgb(54, 54, 54)', fontWeight: '700' }}>
+
+                    Reprehenderit aute sit magna
+                    occaecat. Occaecat laboris consequat ea dolor duis ullamco est eiusmod. Ea commodo eiusmod sit adipisicing
+                    dolor quis laborum sunt.
+
+</ul>
             </div>
 
-
-                </ul>
-            </div> */}
 
         </div>
     )

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div>
             <Card className="text-center">
-                <Card.Header className="title" style={{ fontWeight: '500', fontSize: "1.4rem", color: 'black' }}>Featured</Card.Header>
+                <Card.Header className="title" style={{ fontWeight: '500', fontSize: "1.4rem", color: 'white' }}>Featured</Card.Header>
                 <Card.Body className="title" >
                     <Card.Title className="title" >Special title treatment</Card.Title>
                     <Card.Text>

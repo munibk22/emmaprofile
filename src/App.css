@@ -9,11 +9,11 @@
   margin-top: 2%;
   margin-bottom: 2%;
   outline: none;
-  /* margin-left: 2%; */
+
 /* background-color: #152738; */
 /* background: slategray; */
 background: linear-gradient(to right bottom, 
-#FF5B19
+#FF5B19, #f85e21
 ,
 rgba(255, 255, 255, 0.3)
 );
@@ -21,7 +21,7 @@ rgba(255, 255, 255, 0.3)
 box-shadow: 3px 3px 3px #7bb9f8 ;
  border-radius: 5%;
  overflow: hidden;
- color: white;
+ /* color: white; */
 transition: all .3s ease-in-out; 
 
 }
@@ -99,6 +99,7 @@ color:white;
   .componenttxtbox { 
     font-weight: 500;
     color: white;
+
     transition: all .3s ease-in-out; 
     font-size: 1.3rem;
   }
@@ -114,7 +115,7 @@ color:white;
     } */
 
 
-  .hrRed{
+  /* .hrRed{
 
     max-width: 960px;
     min-width: auto;
@@ -123,13 +124,15 @@ color:white;
   height: 1px;
       clear:5%;
   
-  }
+  } */
 
   .hrRed2{
 
     max-width: 900px;
+    color:#01a6e7;
+
     min-width: auto;
-    background-image:linear-gradient(to right, rgba(204, 25, 25, 0), rgba(184, 45, 45, 0.75), rgba(0, 0, 0, 0));
+    /* background-image:linear-gradient(to right, rgba(204, 25, 25, 0), rgba(184, 45, 45, 0.75), rgba(0, 0, 0, 0)); */
       width: 80%;
   height: 1px;
       margin-bottom: 0%;
@@ -161,7 +164,7 @@ color:white;
     }
   }
   @media (max-width: 950px){ /* from 0 to 800 px max height applies */
-    .bannertxt{
+    .bannertxt .emma{
     font-size:45% ;
     
 
