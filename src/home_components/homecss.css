@@ -1,7 +1,8 @@
 .homebanner{
 
     width: 100vw;
-    height: 75vh;
+    height: 120vh;
+    max-height: 1000px;
     background-color: rgb(255 72 0);
     /* background-color: whitesmoke */
     /* background-color: linear-gradient(to top, #dfe9f3 0%, white 100%); */
@@ -39,19 +40,19 @@ background-position: bottom;
     color: white;
     /* color:  #00FF48      ; */
     /* text-shadow:-3px 3px 1px  #FF050C; */
-    font-weight: 750;
+    font-weight: 700;
     font-size: 3.4rem;
     margin-bottom: 1rem ;
-    margin-top: 2%;
+    margin-top: 1%;
    
    
 }
 
 .namecontainer{
-    top: 10%;
-    left: 25%;
+  top: 40%;
 }
 .emmaimg{
+width: 100vw;
 
 
 }

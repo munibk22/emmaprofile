@@ -16,7 +16,7 @@ border-radius: 500px;
     display: flex;
     height: 2.4em;
     font-size: .9em;
-    background-color: #ff4e08 ;
+    background-color: #f85d21 ;
     /* background-image: linear-gradient(to right,  #f19e7d 0%,#f85e21 , #f19e7d 100%); */
 font-weight: 600;
     /* linear-gradient(to right, rgb(248, 94, 33) 0%, rgb(241, 158, 125) 100%); */
@@ -45,3 +45,18 @@ font-weight: 600;
     top: 0;
     z-index: 7;
  }   
+
+ .mainnav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 1;
+     color: white;
+     font-weight: 500;
+     padding: 0%;
+     margin: 0%;
+ }
+
+ .paddingright{
+    padding: 0 20%;
+ }

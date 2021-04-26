@@ -8,8 +8,10 @@ export default function Search() {
                 style={{}}>
 
             </input>
-            <button type='submit' className='search-button absolute flex '
+            <button type='submit' className='search-button absolute  '
                 style={{
+                    textAlign: 'center',
+                    margin: "0"
 
                 }}>Search </button>
 

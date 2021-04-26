@@ -9,7 +9,7 @@ export default function HomeCircles() {
         <div style={{}} className="relative flex">
 
             <div className="relative" style={{ width: '100vw' }}>
-                <div className="absolute flexwrap " style={{
+                <div className="absolute flexwrap hide" style={{
 
                     zIndex: '0',
                     // left: '15%',
@@ -19,7 +19,7 @@ export default function HomeCircles() {
                     top: '380px',
                     // marginRight: "40%"
                     width: '60%',
-                    height: '20%'
+
 
                 }}>
 
@@ -28,7 +28,7 @@ export default function HomeCircles() {
                         style={{
                             borderRadius: '55%',
                             zIndex: '',
-                            // height: '25vw',
+
                             // width: '25vw',
                             left: '-50',
                             minWidth: "200px",
@@ -44,7 +44,7 @@ export default function HomeCircles() {
                     marginRight: '40%',
                     top: '40%',
                     width: '70%',
-                    height: '20%'
+
 
                 }}>
                     <img src={Bluec} alt=''
@@ -61,33 +61,29 @@ export default function HomeCircles() {
                     />
                 </div>
 
-
-                <div className="absolute flexwrap " style={{
+                {/* 
+                <div className="absolute flex justify hide yeelowc" style={{
                     borderRadius: '',
                     zIndex: '0',
-                    right: '250px',
-                    top: '300px',
-                    // overflow: 'hidden',
-                    // left: "80%",
-                    // width: '90%',
-                    // height: '20%'
-
+                    right: '18%',
+                    top: '180px',
+                    overflowX: 'clip ',
+                    height: '28vh',
+                    width: '28vw',
 
                 }}>
                     <img src={Yellowc} alt='' className="absolute"
                         style={{
                             borderRadius: '50%',
                             zIndex: '',
-                            maxHeight: "300px",
-                            overflow: 'hidden',
-                            minWidth: "200px"
-                            // maxWidth: "500px",
+                            maxHeight: "340px",
+                            // overflowX: 'hidden ',
+                            minWidth: "200px",
 
-                            // right: '600px',
-                            // width: '50%',
+
                         }}
                     />
-                </div>
+                </div> */}
             </div>
 
         </div>

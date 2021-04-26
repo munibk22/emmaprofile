@@ -1,7 +1,8 @@
 import React from 'react'
 import B1 from '../pics/b1.jpg'
+import { Button } from 'react-bootstrap'
 
-export default function HomeImg() {
+export default function HomeImg(top) {
     return (
         <div className="flex  justify margin midimgcontainer "
         >
@@ -23,7 +24,17 @@ export default function HomeImg() {
                 />
 
 
+                <div className="absolute"
+                    style={{
+                        bottom: '5%',
+                        zIndex: '2',
+                        display: 'inline-block'
+                    }}
+                >
+                    <Button variant="danger" href="#top">Back to Top<strong> &#8593;</strong>
 
+                    </Button>
+                </div>
             </div>
 
         </div>

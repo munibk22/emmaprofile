@@ -164,9 +164,16 @@ color:white;
     }
   }
   @media (max-width: 950px){ /* from 0 to 800 px max height applies */
-    .bannertxt .emma{
-    font-size:45% ;
+    .bannertxt  {
+    font-size:90% ;
     
 
     }
   }
+
+
+@media (max-width: 950px){ 
+   .emma {
+  font-size:90% ; 
+    }
+}
